@@ -1,47 +1,31 @@
 ﻿using EFCoreStudies.Context;
 using EFCoreStudies.Models;
+using EFCoreStudies.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCoreStudies
 {
     internal class Program
     {
-        
+
 
         static void Main(string[] args)
         {
-            ProgramContext context = new ProgramContext();
-            Person p1 = new Person { Cpf = 77 , Age = 37, Name = "Eita", BirthDate = DateTime.UtcNow};
 
+            PersonServices service01 = new PersonServices();
+            Person p1 = new Person();
 
-            try
-            {
-                context.Persons.Add(p1);
-                context.SaveChanges();
-                Console.WriteLine("Salvo com sucesso");
-            }
-            catch(DbUpdateException ex)
-            {
-                Console.WriteLine("Erro na execução!");
-                Console.WriteLine("Erro: " + ex.ToString());
-            }
+            DateTime birthdate;
 
-            try
-            {
-                List<Person> returnerPersons = new List<Person>();
-                returnerPersons = context.Set<Person>().ToList();
-                foreach(Person p in returnerPersons)
-                {
-                    Console.WriteLine(p.ToString());
-                }
-            }
-            catch(DbUpdateException ex)
-            {
+            Console.WriteLine("Informe seu nome");
+            p1.Name = Console.ReadLine();
+            Console.WriteLine("Informe seu CPF");
+            p1.Cpf = (int)Int128.Parse(Console.ReadLine());
+            Console.WriteLine("Informe sua data de nascimento");
+            string SBirthDate = Console.ReadLine();
+            p1.BirthDate = DateTime.Parse(SBirthDate).ToUniversalTime();
 
-            }
-            
+            Console.WriteLine(service01.AddNewPerson(p1.Name, p1.BirthDate, p1.Cpf));
         }
-
-        
     }
 }

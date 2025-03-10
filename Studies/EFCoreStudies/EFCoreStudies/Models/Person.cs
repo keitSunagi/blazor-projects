@@ -14,6 +14,7 @@ namespace EFCoreStudies.Models
         public string Name { get; set; } = string.Empty;
         public int Age { get; set; } = 0;
         public DateTime BirthDate { get; set; } = DateTime.UtcNow;
+        public List<Item> ItemList { get; set; } = new List<Item>();
 
         public override string ToString()
         {

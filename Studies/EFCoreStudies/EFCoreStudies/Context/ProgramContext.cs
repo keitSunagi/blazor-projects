@@ -11,6 +11,7 @@ namespace EFCoreStudies.Context
     class ProgramContext : DbContext
     {
         public DbSet<Person> Persons { get; set; }
+        public DbSet<Item> Items { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -19,6 +20,7 @@ namespace EFCoreStudies.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Person>().HasKey(p => p.Cpf);
+            modelBuilder.Entity<Item>().HasKey(i => i.id);
         }
     }
 }
