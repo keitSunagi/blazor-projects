@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\context\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\context\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\repositories\\todorepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\repositories\\todorepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\efcoreblazorapistudies\\efcoreblazorapistudies\\efcoreblazorapistudies\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7D8A65-D846-4A0D-ACBB-53FC974DB3E4}|EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies.csproj|solutionrelative:efcoreblazorapistudies\\efcoreblazorapistudies\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T17:17:13.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoContext.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Context\\TodoContext.cs",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Context\\TodoContext.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Context\\TodoContext.cs",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Context\\TodoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:51:44.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Repositories\\TodoRepositories.cs",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Repositories\\TodoRepositories.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Repositories\\TodoRepositories.cs",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Repositories\\TodoRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:43:08.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Models\\Todo.cs",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Models\\Todo.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Models\\Todo.cs",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Models\\Todo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:29:31.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T16:16:05.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Program.cs",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Program.cs",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:15:13.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\App.razor",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\App.razor",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T16:13:47.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\_Imports.razor",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T16:13:17.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\appsettings.json",
+              "RelativeDocumentMoniker": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\appsettings.json",
+              "RelativeToolTip": "EFCoreBlazorAPIStudies\\EFCoreBlazorAPIStudies\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T14:57:15.916Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

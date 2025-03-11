@@ -1,0 +1,28 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar>
+        <MudIcon Icon="@Icons.Material.Filled.Task" />
+        <MudText Typo="Typo.h5" Color="@Color.Inherit">To do List</MudText>
+        <MudIconButton Icon="@Icons.Material.Filled.Add" Color="@Color.Inherit" Class="me-2" />
+          <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="@Color.Inherit" Class="me-2" />
+        <MudSpacer/>
+        <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="@Color.Inherit" Class="me-2" />
+    </MudAppBar>
+    <MudMainContent>
+        <MudContainer>
+            @Body
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>

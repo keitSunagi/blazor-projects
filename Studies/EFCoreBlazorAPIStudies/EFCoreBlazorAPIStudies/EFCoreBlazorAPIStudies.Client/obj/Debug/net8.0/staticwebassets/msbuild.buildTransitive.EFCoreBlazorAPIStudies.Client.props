@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EFCoreBlazorAPIStudies.Client.props" />
+</Project>
