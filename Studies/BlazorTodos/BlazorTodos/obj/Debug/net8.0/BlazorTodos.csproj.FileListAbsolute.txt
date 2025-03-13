@@ -137,10 +137,10 @@ C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\De
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorTodos.props
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorTodos.props
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\BlazorTo.B215325B.Up2Date
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\BlazorTodos.dll
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\refint\BlazorTodos.dll
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\BlazorTodos.pdb
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\BlazorTodos.genruntimeconfig.cache
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\ref\BlazorTodos.dll
+C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\Studies\BlazorTodos\BlazorTodos\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
