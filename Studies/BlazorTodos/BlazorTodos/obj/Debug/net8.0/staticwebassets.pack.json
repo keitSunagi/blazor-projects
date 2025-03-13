@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorTodos.evrm5trh8s.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorTodos.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorTodos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorTodos.props",
+      "PackagePath": "build\\BlazorTodos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorTodos.props",
+      "PackagePath": "buildMultiTargeting\\BlazorTodos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorTodos.props",
+      "PackagePath": "buildTransitive\\BlazorTodos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
