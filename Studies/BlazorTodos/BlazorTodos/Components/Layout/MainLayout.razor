@@ -1,5 +1,5 @@
 ﻿@inherits LayoutComponentBase
-
+@using BlazorTodos.Components.Modals
 
 <MudThemeProvider @bind-IsDarkMode="@_isDarkMode" />
 <MudSnackbarProvider/>
@@ -10,9 +10,8 @@
         <MudText Typo="@Typo.h5" Color="@Color.Inherit">TO DO</MudText>
         <MudIconButton Icon="@Icons.Material.Outlined.Home" Color="@Color.Inherit" Href="/"></MudIconButton>
         <MudSpacer />
-        <MudIconButton Icon="@Icons.Material.Outlined.Add" Color="@Color.Inherit" Href="add-new"></MudIconButton>
         <MudIconButton Icon="@Icons.Material.Outlined.List" Color="@Color.Inherit"></MudIconButton>
-        <MudSwitch @bind-Value="_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Dark Mode" />
+        <MudSwitch @bind-Value="_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Dark Mode" Disabled="false" />
     </MudAppBar>
     <MudMainContent>
         <MudContainer>
@@ -28,5 +27,6 @@
 </div>
 @code{
     private bool _isDarkMode = false;
+
     
 }

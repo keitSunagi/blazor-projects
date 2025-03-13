@@ -1,14 +1,28 @@
 ﻿@page "/"
 @using System.Collections
 @using BlazorTodos.Models
+@using BlazorTodos.Components.Modals
 @rendermode InteractiveServer
 @inject ITodoService TodoService
+@inject IDialogService DialoService;
+
+
+
 
 <MudThemeProvider/>
 <MudPopoverProvider />
 <MudDialogProvider />
 <PageTitle>Home</PageTitle>
 <br />
+<br />
+<MudPaper>
+    <MudTooltip Text="Adicionar Tarefa">
+        <MudIconButton Icon="@Icons.Material.Filled.Add" Color="@Color.Inherit" OnClick="OpenNewTodo"></MudIconButton>
+    </MudTooltip>
+    <MudTooltip Text="Atualizar Lista">
+        <MudIconButton Icon="@Icons.Material.Filled.Refresh" Color="@Color.Inherit" OnClick="LoadData"></MudIconButton>
+    </MudTooltip>
+</MudPaper>
 <br />
 <br />
 @if (_error)
@@ -51,13 +65,21 @@ else
         catch (Exception ex)
         {
             _error = true;
-            _ErrorMessage = ex.Message;
+
         }
     }
 
     protected async override Task OnInitializedAsync()
     {
-       await LoadData();
+        await LoadData();
+    }
+
+    DialogOptions options = new DialogOptions { CloseOnEscapeKey = true };
+
+    void OpenNewTodo()
+    {
+        DialoService.ShowAsync<CreateNewTask>("Nova Tarefa", options);
+        
     }
 
 }
