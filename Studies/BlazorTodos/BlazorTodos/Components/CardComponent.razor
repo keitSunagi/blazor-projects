@@ -1,0 +1,75 @@
+﻿@using BlazorTodos.Models
+@rendermode InteractiveServer
+@inject ITodoService TodoService
+@inject NavigationManager navigation
+
+<MudDialogProvider />
+
+<MudCard Elevation="3">
+    <MudCardHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h6" Color="Color.Inherit">@ThisTodo.Title</MudText>
+            @if (ThisTodo.IsDone)
+            {
+                <MudChip T="string" Color="Color.Success">Concluída</MudChip>
+            }
+            else
+            {
+                <MudChip T="string" Color="Color.Warning">Pendente</MudChip>
+            }
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudTooltip Text="Concluir">
+                <MudIconButton Size="Size.Small" Icon="@Icons.Material.Filled.Check" Color="@Color.Success" />
+            </MudTooltip>
+            <MudTooltip Text="Editar">
+                <MudIconButton Size="Size.Small" Icon="@Icons.Material.Filled.Edit" Color="@Color.Inherit" />
+            </MudTooltip>
+            <MudTooltip Text="Deletar">
+                <MudIconButton Size="Size.Small" Icon="@Icons.Material.Filled.Delete" Color="@Color.Warning" OnClick="OnButtonClickedAsync" />
+            </MudTooltip>
+        </CardHeaderActions>
+    </MudCardHeader>
+    <MudCardContent>
+        <MudText Typo="Typo.body2">@ThisTodo.Description</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudChip Size="Size.Small" T="string" Variant="Variant.Text" Color="Color.Success">Criada @ThisTodo.CreationDate.ToString("dd/MM/yyyy")</MudChip>
+        @if (ThisTodo.EndLine != DateTime.Today.ToUniversalTime())
+        {
+            <MudChip Size="Size.Small" T="string" Variant="Variant.Text" Color="Color.Warning">Criada @ThisTodo.EndLine.ToString("dd/MM/yyyy")</MudChip>
+        }
+    </MudCardActions>
+</MudCard>
+
+<MudMessageBox @ref="_DeletionBox" Title="Warning" CancelText="Cancelar">
+    <MessageContent>
+        Deletar?
+    </MessageContent>
+    <YesButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" StartIcon="@Icons.Material.Filled.DeleteForever">Apagar</MudButton>
+    </YesButton>
+</MudMessageBox>
+
+@code {
+    [Parameter]
+    public Todo ThisTodo { get; set; } = new Todo();
+    [Parameter]
+    public EventCallback OnTodoDeleted { get; set; } //Eventcallback para notificar a tela principal que foi deletada
+    private bool _DeletionAlert;
+    private MudMessageBox _DeletionBox;
+
+    private async Task OnButtonClickedAsync()
+    {
+        bool? result = await _DeletionBox.ShowAsync();
+        if (result == true)
+        {
+            TodoService.RemoveObject(ThisTodo.Id);
+            navigation.Refresh();
+            await OnTodoDeleted.InvokeAsync();
+
+        }
+    }
+
+
+}

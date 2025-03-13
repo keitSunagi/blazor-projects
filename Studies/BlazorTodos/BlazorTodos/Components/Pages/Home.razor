@@ -5,6 +5,8 @@
 @inject ITodoService TodoService
 
 <MudThemeProvider/>
+<MudPopoverProvider />
+<MudDialogProvider />
 <PageTitle>Home</PageTitle>
 <br />
 <br />
@@ -17,47 +19,13 @@ else
 {
     <MudGrid>
         @if(Todos != null)
-        {
-            
+        { 
             @foreach (var t in Todos)
             {
                 <MudItem xs="4" sm="4" Style="height: 500px; overflow-y: auto;">
-                   
-                    <MudCard Style="background-color : lightyellow">
-                        <MudCardHeader>
-                            <CardHeaderContent>
-                                <MudText Typo="Typo.h6">@t.Title</MudText>
-                                <MudSpacer />
-                                @if (t.IsDone)
-                                {
-                                    <MudChip T="string" Color="Color.Success">Concluída</MudChip>
-                                }
-                                else
-                                {
-                                    <MudChip T="string" Color="Color.Warning">Pendente</MudChip>
-                                }
-                            </CardHeaderContent>
-                            <CardHeaderActions>
-                                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" />
-                            </CardHeaderActions>
-                        </MudCardHeader>
-                        <MudCardContent>
-                            <MudText>@t.Description</MudText>
-                            @if (t.EndLine != DateTime.Today.ToUniversalTime())
-                            {
-                                <MudText Typo="Typo.body2" Color="@Color.Warning">Deadline:<MudText Color="@Color.Primary">@t.EndLine.ToString("dd/MM/yyyy")</MudText></MudText>
-                            }
-                            <MudSpacer />
-                            <MudText Typo="Typo.body2" Color="@Color.Dark">Criada em:<MudText Color="@Color.Primary">@t.CreationDate.ToString("dd/MM/yyyy")</MudText></MudText>
-
-                        </MudCardContent>
-                        <MudCardActions>
-                            <MudButton Variant="Variant.Text" Color="Color.Primary">Edit</MudButton>
-                        </MudCardActions>
-                    </MudCard>
+                    <CardComponent ThisTodo="t" OnTodoDeleted="LoadData" /> 
                 </MudItem>
-            }
-            
+            } 
         }
         else
         {
@@ -71,9 +39,8 @@ else
     private string _ErrorMessage;
     private bool _error;
 
-    protected async override Task OnInitializedAsync()
+    private async Task LoadData()
     {
-
         try
         {
             _ErrorMessage = "Nenhuma tarefa cadastrada.";
@@ -81,11 +48,16 @@ else
             Todos = await TodoService.GetAllTodos();
             StateHasChanged();
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             _error = true;
-            _ErrorMessage = ex.Message + " - " + ex.InnerException.Message;
+            _ErrorMessage = ex.Message;
         }
+    }
+
+    protected async override Task OnInitializedAsync()
+    {
+       await LoadData();
     }
 
 }

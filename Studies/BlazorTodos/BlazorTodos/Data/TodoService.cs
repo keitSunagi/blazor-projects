@@ -67,7 +67,18 @@ namespace BlazorTodos.Data
 
         public void RemoveObject(string title)
         {
-            throw new NotImplementedException();
+            if(title != null)
+            {
+                try
+                {
+                    _context.Todos.Where(p => p.Id == title).ExecuteDeleteAsync();
+                    _context.SaveChangesAsync();
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
         }
     }
 }
