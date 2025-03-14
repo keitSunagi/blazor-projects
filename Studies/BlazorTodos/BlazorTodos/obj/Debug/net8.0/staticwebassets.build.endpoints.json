@@ -329,6 +329,88 @@
           "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
         }
       ]
+    },
+    {
+      "Route": "css/todo.css",
+      "AssetFile": "css/todo.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "240"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/+2FeYgP332EZr0bXLR9S58e3yVdvRrW/1ETewpsY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 15:49:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/+2FeYgP332EZr0bXLR9S58e3yVdvRrW/1ETewpsY8="
+        }
+      ]
+    },
+    {
+      "Route": "css/todo.xo8tvol0ug.css",
+      "AssetFile": "css/todo.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "240"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/+2FeYgP332EZr0bXLR9S58e3yVdvRrW/1ETewpsY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 15:49:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xo8tvol0ug"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/+2FeYgP332EZr0bXLR9S58e3yVdvRrW/1ETewpsY8="
+        },
+        {
+          "Name": "label",
+          "Value": "css/todo.css"
+        }
+      ]
     }
   ]
 }

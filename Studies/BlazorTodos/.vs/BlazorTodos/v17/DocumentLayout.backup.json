@@ -7,40 +7,32 @@
       "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\modals\\createnewtask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\modals\\edittodomodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\modals\\edittodomodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\pages\\addnewtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\pages\\addnewtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\wwwroot\\css\\todo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\wwwroot\\css\\todo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\data\\apptodocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\data\\apptodocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\components\\pages\\listoftodos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\components\\pages\\listoftodos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\data\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\data\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\data\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\data\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\studies\\blazortodos\\blazortodos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65219E26-01E5-4995-A135-328722F156E2}|BlazorTodos\\BlazorTodos.csproj|solutionrelative:blazortodos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,34 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Error.razor",
-              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "BlazorTodos\\Components\\Pages\\Error.razor",
-              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "BlazorTodos\\Components\\Pages\\Error.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T20:17:38.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateNewTask.razor",
-              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Modals\\CreateNewTask.razor",
-              "RelativeDocumentMoniker": "BlazorTodos\\Components\\Modals\\CreateNewTask.razor",
-              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Modals\\CreateNewTask.razor*",
-              "RelativeToolTip": "BlazorTodos\\Components\\Modals\\CreateNewTask.razor*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T19:28:09.53Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -86,22 +52,87 @@
               "RelativeDocumentMoniker": "BlazorTodos\\Components\\CardComponent.razor",
               "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\CardComponent.razor",
               "RelativeToolTip": "BlazorTodos\\Components\\CardComponent.razor",
-              "ViewState": "AgIAADUAAAAAAAAAAAAUwEQAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABwAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T17:50:50.322Z",
+              "WhenOpened": "2025-03-14T15:54:21.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorTodos\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\App.razor",
+              "RelativeToolTip": "BlazorTodos\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T15:49:34.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "todo.css",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
+              "RelativeDocumentMoniker": "BlazorTodos\\wwwroot\\css\\todo.css",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
+              "RelativeToolTip": "BlazorTodos\\wwwroot\\css\\todo.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-14T15:47:40.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EditTodoModal.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Modals\\EditTodoModal.razor",
+              "RelativeDocumentMoniker": "BlazorTodos\\Components\\Modals\\EditTodoModal.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Modals\\EditTodoModal.razor",
+              "RelativeToolTip": "BlazorTodos\\Components\\Modals\\EditTodoModal.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T15:42:23.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateNewTask.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Modals\\CreateNewTask.razor",
+              "RelativeDocumentMoniker": "BlazorTodos\\Components\\Modals\\CreateNewTask.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Modals\\CreateNewTask.razor",
+              "RelativeToolTip": "BlazorTodos\\Components\\Modals\\CreateNewTask.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T23:19:32.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorTodos\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "BlazorTodos\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T15:01:31.015Z",
+              "WhenOpened": "2025-03-13T23:07:04.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListOfTodos.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Pages\\ListOfTodos.razor",
+              "RelativeDocumentMoniker": "BlazorTodos\\Components\\Pages\\ListOfTodos.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Pages\\ListOfTodos.razor",
+              "RelativeToolTip": "BlazorTodos\\Components\\Pages\\ListOfTodos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T22:44:27.188Z",
               "EditorCaption": ""
             },
             {
@@ -112,71 +143,9 @@
               "RelativeDocumentMoniker": "BlazorTodos\\Data\\TodoService.cs",
               "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Data\\TodoService.cs",
               "RelativeToolTip": "BlazorTodos\\Data\\TodoService.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:36:53.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITodoService.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Data\\ITodoService.cs",
-              "RelativeDocumentMoniker": "BlazorTodos\\Data\\ITodoService.cs",
-              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Data\\ITodoService.cs",
-              "RelativeToolTip": "BlazorTodos\\Data\\ITodoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:34:02.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "BlazorTodos\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "BlazorTodos\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T14:05:31.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddNewTodo.razor",
-              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Pages\\AddNewTodo.razor",
-              "RelativeDocumentMoniker": "BlazorTodos\\Components\\Pages\\AddNewTodo.razor",
-              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Components\\Pages\\AddNewTodo.razor",
-              "RelativeToolTip": "BlazorTodos\\Components\\Pages\\AddNewTodo.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T13:53:21.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppTodoContext.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Data\\AppTodoContext.cs",
-              "RelativeDocumentMoniker": "BlazorTodos\\Data\\AppTodoContext.cs",
-              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Data\\AppTodoContext.cs",
-              "RelativeToolTip": "BlazorTodos\\Data\\AppTodoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:41:56.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorTodos\\Program.cs",
-              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\Program.cs",
-              "RelativeToolTip": "BlazorTodos\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T12:24:02.902Z"
+              "WhenOpened": "2025-03-13T22:43:13.079Z"
             }
           ]
         }

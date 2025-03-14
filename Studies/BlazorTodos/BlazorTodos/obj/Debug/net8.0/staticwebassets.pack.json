@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\app.css"
     },
     {
+      "Id": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
+      "PackagePath": "staticwebassets\\css\\todo.css"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorTodos.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

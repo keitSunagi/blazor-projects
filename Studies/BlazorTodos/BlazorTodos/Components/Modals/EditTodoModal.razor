@@ -1,0 +1,37 @@
+﻿@using BlazorTodos.Models
+@inject ITodoService TodoService;
+@rendermode InteractiveServer
+@inject NavigationManager navManager
+
+<MudDialogProvider />
+
+<MudDialog>
+    <DialogContent>
+        <div id="editor-todo">
+            <p style="color: white">Teste de Parametrização</p>
+        </div>
+        <div id="editor-todo-actions">
+            <p style="color: white">Aqui vai ficar os botões</p>
+        </div>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="Close">Cancelar</MudButton>
+    </DialogActions>
+</MudDialog>
+
+
+
+@code {
+    [Parameter]
+    public Todo TodoToEdit { get; set; }
+    [CascadingParameter]
+    public IMudDialogInstance MudDialog { get; set; }
+
+    public void Close()
+    {
+        //MudDialog.Close(DialogResult.Cancel());
+        MudDialog.CancelAll();
+        navManager.NavigateTo("/");
+    }
+
+}

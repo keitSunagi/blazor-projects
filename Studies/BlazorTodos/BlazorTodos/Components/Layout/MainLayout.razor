@@ -7,10 +7,10 @@
 
 <MudLayout>
     <MudAppBar>
-        <MudText Typo="@Typo.h5" Color="@Color.Inherit">TO DO</MudText>
+        <MudText Typo="@Typo.h5" Color="@Color.Inherit">Tarefas</MudText>
         <MudIconButton Icon="@Icons.Material.Outlined.Home" Color="@Color.Inherit" Href="/"></MudIconButton>
         <MudSpacer />
-        <MudIconButton Icon="@Icons.Material.Outlined.List" Color="@Color.Inherit"></MudIconButton>
+        <MudIconButton Icon="@Icons.Material.Outlined.List" Href="list-to-do" Color="@Color.Inherit"></MudIconButton>
         <MudSwitch @bind-Value="_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Dark Mode" Disabled="false" />
     </MudAppBar>
     <MudMainContent>

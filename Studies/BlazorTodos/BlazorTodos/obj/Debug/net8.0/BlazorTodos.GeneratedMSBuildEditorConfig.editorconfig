@@ -43,8 +43,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RhbHNcQ3JlYXRlTmV3VGFzay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas.lopes/Desktop/n/Nexus-Pack/Studies/BlazorTodos/BlazorTodos/Components/Pages/AddNewTodo.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGROZXdUb2RvLnJhem9y
+[C:/Users/lucas.lopes/Desktop/n/Nexus-Pack/Studies/BlazorTodos/BlazorTodos/Components/Modals/EditTodoModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RhbHNcRWRpdFRvZG9Nb2RhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lucas.lopes/Desktop/n/Nexus-Pack/Studies/BlazorTodos/BlazorTodos/Components/Pages/Error.razor]
@@ -53,6 +53,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lucas.lopes/Desktop/n/Nexus-Pack/Studies/BlazorTodos/BlazorTodos/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas.lopes/Desktop/n/Nexus-Pack/Studies/BlazorTodos/BlazorTodos/Components/Pages/ListOfTodos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0T2ZUb2Rvcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lucas.lopes/Desktop/n/Nexus-Pack/Studies/BlazorTodos/BlazorTodos/Components/Routes.razor]

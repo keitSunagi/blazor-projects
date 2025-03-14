@@ -1,6 +1,7 @@
 ﻿@using BlazorTodos.Models
 @rendermode InteractiveServer
 @inject ITodoService TodoService
+@inject NavigationManager navMan
 
 <MudDialog Style="width: 800px; height: 800px;">
     <DialogContent>
@@ -14,7 +15,7 @@
                 <MudTextField @bind-Value="newTodo.Description" Lines="4" IconSize="Size.Small" InputMode="InputMode.text" Label="Descrição" RequiredError="É necessário ao menos o título"></MudTextField>
                 @if (_HasEndline)
                 {
-                    <MudDatePicker Label="Deadline" @bind-Date="_date" />
+                    <MudDatePicker Label="Deadline" @bind-Date="_date" AnchorOrigin="Origin.TopCenter" TransformOrigin="Origin.TopCenter" Editable="true" />
 
                 }
                 <MudCheckBox @bind-Value="isDone">Concluída</MudCheckBox><MudCheckBox @bind-Value="@_HasEndline">Add Deadline</MudCheckBox>
@@ -34,16 +35,14 @@
     private bool isDone = false;
     Guid guid;
     private Todo newTodo = new Todo();
-    private string tTitle, tDescription, tId;
     private DateTime? _date = DateTime.Today;
 
     private string _errorMessage;
 
     public void Cancel()
     {
-
         DialogInstance.Close();
-        
+        navMan.NavigateTo("/");
     }
 
     private void AddTodo()
@@ -70,8 +69,8 @@
         catch (Exception ex)
         {
             _errorMessage = ex.InnerException.Message;
-            
+            Cancel();
         }
-        StateHasChanged();
+        
     }
 }

@@ -65,13 +65,13 @@ namespace BlazorTodos.Data
             throw new NotImplementedException();
         }
 
-        public void RemoveObject(string title)
+        public void RemoveObject(string id)
         {
-            if(title != null)
+            if(id != null)
             {
                 try
                 {
-                    _context.Todos.Where(p => p.Id == title).ExecuteDeleteAsync();
+                    _context.Todos.Where(p => p.Id == id).ExecuteDeleteAsync();
                     _context.SaveChangesAsync();
                 }
                 catch (Exception)

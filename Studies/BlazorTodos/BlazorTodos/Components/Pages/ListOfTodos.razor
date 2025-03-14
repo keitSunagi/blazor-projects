@@ -1,0 +1,34 @@
+﻿@page "/list-to-do"
+@using BlazorTodos.Models
+@using System.Collections
+@inject ITodoService todoService;
+<MudContainer>
+    <MudTable Items="@ElementsT.Take(ElementsT.Count())" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+        <HeaderContent>
+            <MudTh>Titulo</MudTh>
+            <MudTh>Desc</MudTh>
+            <MudTh>Data</MudTh>
+            <MudTh>Deadline</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Titulo">@context.Title</MudTd>
+            <MudTd DataLabel="Desc">@context.Description</MudTd>
+            <MudTd DataLabel="Data">@context.CreationDate</MudTd>
+            @if(context.EndLine != DateTime.Today.ToUniversalTime())
+            {
+                <MudTd DataLabel="Deadline">@context.EndLine</MudTd>
+            }
+        </RowTemplate>
+    </MudTable>
+</MudContainer>
+
+@code {
+    private IEnumerable<Todo> ElementsT = new List<Todo>();
+    bool _loading;
+    protected async override Task OnInitializedAsync()
+    {
+        ElementsT = await todoService.GetAllTodos();
+        StateHasChanged();
+    }
+
+}

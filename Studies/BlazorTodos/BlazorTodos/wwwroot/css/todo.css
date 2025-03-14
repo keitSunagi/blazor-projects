@@ -1,0 +1,12 @@
+﻿#editor-todo{
+    align-content: center;
+    width: 800px;
+    height: 800px;
+    background-color: black;
+}
+#editor-todo-actions{
+    align-content: center;
+    width: 800px;
+    height: 300px;
+    background-color: blue;
+}

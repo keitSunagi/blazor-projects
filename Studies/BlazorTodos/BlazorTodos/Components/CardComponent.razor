@@ -1,7 +1,10 @@
 ﻿@using BlazorTodos.Models
+@using BlazorTodos.Components.Modals
 @rendermode InteractiveServer
 @inject ITodoService TodoService
 @inject NavigationManager navigation
+@inject IDialogService DialoService
+
 
 <MudDialogProvider />
 
@@ -23,7 +26,7 @@
                 <MudIconButton Size="Size.Small" Icon="@Icons.Material.Filled.Check" Color="@Color.Success" />
             </MudTooltip>
             <MudTooltip Text="Editar">
-                <MudIconButton Size="Size.Small" Icon="@Icons.Material.Filled.Edit" Color="@Color.Inherit" />
+                <MudIconButton Size="Size.Small" Icon="@Icons.Material.Filled.Edit" Color="@Color.Inherit" OnClick="OpenEditModal" />
             </MudTooltip>
             <MudTooltip Text="Deletar">
                 <MudIconButton Size="Size.Small" Icon="@Icons.Material.Filled.Delete" Color="@Color.Warning" OnClick="OnButtonClickedAsync" />
@@ -37,7 +40,7 @@
         <MudChip Size="Size.Small" T="string" Variant="Variant.Text" Color="Color.Success">Criada @ThisTodo.CreationDate.ToString("dd/MM/yyyy")</MudChip>
         @if (ThisTodo.EndLine != DateTime.Today.ToUniversalTime())
         {
-            <MudChip Size="Size.Small" T="string" Variant="Variant.Text" Color="Color.Warning">Criada @ThisTodo.EndLine.ToString("dd/MM/yyyy")</MudChip>
+            <MudChip Size="Size.Small" T="string" Variant="Variant.Text" Color="Color.Warning">Deadline @ThisTodo.EndLine.ToString("dd/MM/yyyy")</MudChip>
         }
     </MudCardActions>
 </MudCard>
@@ -69,6 +72,14 @@
             await OnTodoDeleted.InvokeAsync();
 
         }
+    }
+    public async Task OpenEditModal()
+    {
+        var parameter = new DialogParameters
+        {
+            {"TodoToEdit" , ThisTodo }
+        };
+        var modal = await DialoService.ShowAsync<EditTodoModal>("Editar Tarefa",parameter);
     }
 
 

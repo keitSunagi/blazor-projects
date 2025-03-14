@@ -31,33 +31,36 @@
 }
 else
 {
-    <MudGrid>
-        @if(Todos != null)
-        { 
-            @foreach (var t in Todos)
+        <MudGrid>
+            @if (Todos != null)
             {
-                <MudItem xs="4" sm="4" Style="height: 500px; overflow-y: auto;">
-                    <CardComponent ThisTodo="t" OnTodoDeleted="LoadData" /> 
-                </MudItem>
-            } 
-        }
-        else
-        {
-            _error = true;
-        }
-    </MudGrid>
+                    @foreach (var t in Todos)
+                    {
+
+                        <MudItem xs="4" sm="4" Style=" overflow-y: auto;">
+                            <CardComponent ThisTodo="t" OnTodoDeleted="LoadData" />
+                        </MudItem>
+                    }
+
+            }
+            else
+            {
+                _error = true;
+            }
+        </MudGrid>
 }
 
 @code{
     private IEnumerable<Todo> Todos;
     private string _ErrorMessage;
     private bool _error;
+    private int index = 0;
+    DialogOptions options = new DialogOptions { CloseOnEscapeKey = true };
 
     private async Task LoadData()
     {
         try
         {
-            _ErrorMessage = "Nenhuma tarefa cadastrada.";
             Todos = new List<Todo>();
             Todos = await TodoService.GetAllTodos();
             StateHasChanged();
@@ -74,12 +77,10 @@ else
         await LoadData();
     }
 
-    DialogOptions options = new DialogOptions { CloseOnEscapeKey = true };
 
-    void OpenNewTodo()
+    async Task OpenNewTodo()
     {
-        DialoService.ShowAsync<CreateNewTask>("Nova Tarefa", options);
-        
+       var modal = await DialoService.ShowAsync<CreateNewTask>("Nova Tarefa"); 
     }
 
 }
