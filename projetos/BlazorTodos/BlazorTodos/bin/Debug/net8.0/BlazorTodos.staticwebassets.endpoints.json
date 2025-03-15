@@ -3,7 +3,7 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "BlazorTodos.evrm5trh8s.styles.css",
+      "Route": "BlazorTodos.k4pxtf8sj3.styles.css",
       "AssetFile": "BlazorTodos.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "502"
+          "Value": "3546"
         },
         {
           "Name": "Content-Type",
@@ -25,21 +25,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs=\""
+          "Value": "\"dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 12:05:50 GMT"
+          "Value": "Sat, 15 Mar 2025 18:26:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "evrm5trh8s"
+          "Value": "k4pxtf8sj3"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs="
+          "Value": "sha256-dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs="
         },
         {
           "Name": "label",
@@ -62,7 +62,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "502"
+          "Value": "3546"
         },
         {
           "Name": "Content-Type",
@@ -70,17 +70,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs=\""
+          "Value": "\"dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 12:05:50 GMT"
+          "Value": "Sat, 15 Mar 2025 18:26:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs="
+          "Value": "sha256-dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs="
         }
       ]
     },
@@ -275,7 +275,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 13:15:32 GMT"
+          "Value": "Sat, 15 Mar 2025 17:15:36 GMT"
         }
       ],
       "EndpointProperties": [
@@ -320,7 +320,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 13:15:32 GMT"
+          "Value": "Sat, 15 Mar 2025 17:15:36 GMT"
         }
       ],
       "EndpointProperties": [
@@ -357,7 +357,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 15:49:27 GMT"
+          "Value": "Sat, 15 Mar 2025 17:15:36 GMT"
         }
       ],
       "EndpointProperties": [
@@ -394,7 +394,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 15:49:27 GMT"
+          "Value": "Sat, 15 Mar 2025 17:15:36 GMT"
         }
       ],
       "EndpointProperties": [

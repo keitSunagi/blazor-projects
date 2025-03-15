@@ -6,6 +6,7 @@ namespace BlazorTodos.Models
     {
         [Key]
         public string Id { get; set; }
+        [Required(ErrorMessage = "Necessário informar ao menos o título")]
         [MaxLength(100)]
         public string Title { get; set; }
         [MaxLength(500)]

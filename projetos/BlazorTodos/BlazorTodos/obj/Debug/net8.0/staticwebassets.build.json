@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jZkAE27powLzJOjWNUFS0vbIb5V2gN0WoQotdNxRn2s=",
+  "Hash": "A2UBIJdN/POsyA9oLlKu7FC9920hs401QghEC/+jXLM=",
   "Source": "BlazorTodos",
   "BasePath": "_content/BlazorTodos",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorTodos\\wwwroot",
       "Source": "BlazorTodos",
-      "ContentRoot": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\",
       "BasePath": "_content/BlazorTodos",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodos.styles.css",
+      "Identity": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodos.styles.css",
       "SourceId": "BlazorTodos",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorTodos",
       "RelativePath": "BlazorTodos#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "evrm5trh8s",
-      "Integrity": "mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs=",
+      "Fingerprint": "k4pxtf8sj3",
+      "Integrity": "dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodos.styles.css"
+      "OriginalItemSpec": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodos.styles.css"
     },
     {
-      "Identity": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css",
+      "Identity": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css",
       "SourceId": "BlazorTodos",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorTodos",
       "RelativePath": "BlazorTodos#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "evrm5trh8s",
-      "Integrity": "mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs=",
+      "Fingerprint": "k4pxtf8sj3",
+      "Integrity": "dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\app.css",
       "SourceId": "BlazorTodos",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\",
       "BasePath": "_content/BlazorTodos",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
+      "Identity": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
       "SourceId": "BlazorTodos",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\",
       "BasePath": "_content/BlazorTodos",
       "RelativePath": "css/todo#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "_content/MudBlazor/MudBlazor.min.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -183,7 +183,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.hmu6kx9mgf.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -228,7 +228,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.js",
-      "AssetFile": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -265,7 +265,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.tspksaymx7.js",
-      "AssetFile": "C:\\Users\\lucas.lopes\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\lukas\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -310,7 +310,7 @@
     },
     {
       "Route": "app.9tsjre4pz5.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +331,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 13:15:32 GMT"
+          "Value": "Sat, 15 Mar 2025 17:15:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -355,7 +355,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -376,7 +376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 13:15:32 GMT"
+          "Value": "Sat, 15 Mar 2025 17:15:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -392,7 +392,7 @@
     },
     {
       "Route": "BlazorTodos.bundle.scp.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css",
+      "AssetFile": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -401,7 +401,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "502"
+          "Value": "3546"
         },
         {
           "Name": "Content-Type",
@@ -409,11 +409,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs=\""
+          "Value": "\"dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 12:05:50 GMT"
+          "Value": "Sat, 15 Mar 2025 18:26:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -423,13 +423,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs="
+          "Value": "sha256-dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs="
         }
       ]
     },
     {
-      "Route": "BlazorTodos.evrm5trh8s.bundle.scp.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css",
+      "Route": "BlazorTodos.k4pxtf8sj3.bundle.scp.css",
+      "AssetFile": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodos.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -438,7 +438,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "502"
+          "Value": "3546"
         },
         {
           "Name": "Content-Type",
@@ -446,11 +446,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs=\""
+          "Value": "\"dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 12:05:50 GMT"
+          "Value": "Sat, 15 Mar 2025 18:26:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -460,7 +460,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "evrm5trh8s"
+          "Value": "k4pxtf8sj3"
         },
         {
           "Name": "label",
@@ -468,13 +468,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs="
+          "Value": "sha256-dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs="
         }
       ]
     },
     {
-      "Route": "BlazorTodos.evrm5trh8s.styles.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodos.styles.css",
+      "Route": "BlazorTodos.k4pxtf8sj3.styles.css",
+      "AssetFile": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodos.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -483,7 +483,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "502"
+          "Value": "3546"
         },
         {
           "Name": "Content-Type",
@@ -491,11 +491,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs=\""
+          "Value": "\"dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 12:05:50 GMT"
+          "Value": "Sat, 15 Mar 2025 18:26:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -505,7 +505,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "evrm5trh8s"
+          "Value": "k4pxtf8sj3"
         },
         {
           "Name": "label",
@@ -513,13 +513,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs="
+          "Value": "sha256-dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs="
         }
       ]
     },
     {
       "Route": "BlazorTodos.styles.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodos.styles.css",
+      "AssetFile": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodos.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -528,7 +528,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "502"
+          "Value": "3546"
         },
         {
           "Name": "Content-Type",
@@ -536,11 +536,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs=\""
+          "Value": "\"dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 12:05:50 GMT"
+          "Value": "Sat, 15 Mar 2025 18:26:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -550,13 +550,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mt+11DJmqsZ3BmERArYebaYmwT1vGjdqUEuWVKjKbhs="
+          "Value": "sha256-dFaVMOD7VIkycVrMoM9EXc9Ehr7twGxQDI951HM2cGs="
         }
       ]
     },
     {
       "Route": "css/todo.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
+      "AssetFile": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -577,7 +577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 15:49:27 GMT"
+          "Value": "Sat, 15 Mar 2025 17:15:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -593,7 +593,7 @@
     },
     {
       "Route": "css/todo.xo8tvol0ug.css",
-      "AssetFile": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\Studies\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
+      "AssetFile": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\wwwroot\\css\\todo.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -614,7 +614,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 15:49:27 GMT"
+          "Value": "Sat, 15 Mar 2025 17:15:36 GMT"
         },
         {
           "Name": "Cache-Control",

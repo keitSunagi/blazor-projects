@@ -1,0 +1,67 @@
+﻿@using BlazorTodos.Models
+@rendermode InteractiveServer
+@inject ITodoService TodoService
+@inject NavigationManager navMan
+
+<MudDialog Style="width: 800px; height: 800px;">
+    <EditForm Model="@newTodo" OnValidSubmit="AddTodo" FormName="NewTodo">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div>
+            <InputText @bind-Value="@newTodo.Title" />
+        </div>
+        <div>
+
+        </div>
+        <MudButton Color="Color.Success" ButtonType="ButtonType.Submit" StartIcon="@Icons.Material.Filled.Send">Enviar</MudButton>
+    </EditForm>
+
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    public IMudDialogInstance DialogInstance { get; set; }
+
+    private bool _HasEndline;
+    private bool isDone = false;
+    Guid guid;
+    private Todo newTodo = new Todo();
+    private DateTime? _date = DateTime.Today;
+
+    private string _errorMessage;
+
+    public void Cancel()
+    {
+        DialogInstance.Close();
+        navMan.NavigateTo("/");
+    }
+
+    private void AddTodo()
+    {
+        guid = Guid.NewGuid();
+        newTodo.Id = guid.ToString();
+        if (_HasEndline)
+        {
+            newTodo.EndLine = (DateTime)_date.Value.ToUniversalTime();
+            newTodo.EndLine.ToUniversalTime();
+        }
+        else
+        {
+            newTodo.EndLine = DateTime.Today.ToUniversalTime();
+        }
+
+        newTodo.CreationDate = DateTime.UtcNow;
+        try
+        {
+            newTodo.IsDone = isDone;
+            TodoService.AddNewObject(newTodo);
+            Cancel();
+        }
+        catch (Exception ex)
+        {
+            _errorMessage = ex.InnerException.Message;
+            Cancel();
+        }
+
+    }
+}

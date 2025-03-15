@@ -1,3 +1,131 @@
+/* _content/BlazorTodos/Components/Card.razor.rz.scp.css */
+.card[b-44vcmh0qao] {
+    display: grid;
+    grid-template-columns: 550px;
+    grid-template-rows: 10px 300px 70px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.card-image[b-44vcmh0qao] {
+    grid-area: image;
+    background: url("https://picsum.photos/320/300");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text[b-44vcmh0qao] {
+    grid-area: text;
+    margin: 25px;
+}
+
+    .card-text .date[b-44vcmh0qao] {
+        color: rgb(255, 7, 110);
+        font-size: 13px;
+    }
+
+    .card-text p[b-44vcmh0qao] {
+        color: grey;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .card-text h2[b-44vcmh0qao] {
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+.card-stats[b-44vcmh0qao] {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(255, 7, 110);
+}
+
+    .card-stats .stat[b-44vcmh0qao] {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+
+    .card-stats .border[b-44vcmh0qao] {
+        border-left: 1px solid rgb(172, 26, 87);
+        border-right: 1px solid rgb(172, 26, 87);
+    }
+
+    .card-stats .value[b-44vcmh0qao] {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+        .card-stats .value sup[b-44vcmh0qao] {
+            font-size: 12px;
+        }
+
+    .card-stats .type[b-44vcmh0qao] {
+        font-size: 11px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+.card:hover[b-44vcmh0qao] {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/*card2*/
+.card-image.card2[b-44vcmh0qao] {
+    background: url("https://picsum.photos/320/301");
+    background-size: cover;
+}
+
+.card-text.card2 .date[b-44vcmh0qao] {
+    color: rgb(255, 77, 7);
+}
+
+.card-stats.card2 .border[b-44vcmh0qao] {
+    border-left: 1px solid rgb(185, 67, 20);
+    border-right: 1px solid rgb(185, 67, 20);
+}
+
+.card-stats.card2[b-44vcmh0qao] {
+    background: rgb(255, 77, 7);
+}
+/*card3*/
+.card-image.card3[b-44vcmh0qao] {
+    background: url("https://picsum.photos/320/302");
+    background-size: cover;
+}
+
+.card-text.card3 .date[b-44vcmh0qao] {
+    color: rgb(14, 122, 50);
+}
+.card-created-date[b-44vcmh0qao] {
+    color: rgb(14, 122, 50);
+}
+
+.card-stats.card3 .border[b-44vcmh0qao] {
+    border-left: 1px solid rgb(14, 122, 50);
+    border-right: 1px solid rgb(14, 122, 50);
+}
+
+.card-stats.card3[b-44vcmh0qao] {
+    background: rgba(89,74,226,255)
+}
 /* _content/BlazorTodos/Components/Layout/MainLayout.razor.rz.scp.css */
 #blazor-error-ui[b-mohcd8h4xa] {
     background: lightyellow;

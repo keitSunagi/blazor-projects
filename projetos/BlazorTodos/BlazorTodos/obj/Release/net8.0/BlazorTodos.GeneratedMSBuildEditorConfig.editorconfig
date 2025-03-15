@@ -1,22 +1,11 @@
 is_global = true
-build_property.MudDebugAnalyzer = 
-build_property.MudAllowedAttributePattern = 
-build_property.MudAllowedAttributeList = 
-build_property.TargetFramework = net8.0
 build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
-build_property.TargetPlatformMinVersion = 
-build_property.UsingMicrosoftNETSdkWeb = true
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
-build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorTodos
 build_property.RootNamespace = BlazorTodos
@@ -35,16 +24,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lukas/OneDrive/Área de Trabalho/Nexus/Nexus-Pack/projetos/BlazorTodos/BlazorTodos/Components/CardComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lukas/OneDrive/Área de Trabalho/Nexus/Nexus-Pack/projetos/BlazorTodos/BlazorTodos/Components/Modals/CreateNewTask.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RhbHNcQ3JlYXRlTmV3VGFzay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lukas/OneDrive/Área de Trabalho/Nexus/Nexus-Pack/projetos/BlazorTodos/BlazorTodos/Components/Modals/EditTodoModal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RhbHNcRWRpdFRvZG9Nb2RhbC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/lukas/OneDrive/Área de Trabalho/Nexus/Nexus-Pack/projetos/BlazorTodos/BlazorTodos/Components/Modals/NewTodo.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RhbHNcTmV3VG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lukas/OneDrive/Área de Trabalho/Nexus/Nexus-Pack/projetos/BlazorTodos/BlazorTodos/Components/Pages/Error.razor]
@@ -66,10 +55,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/lukas/OneDrive/Área de Trabalho/Nexus/Nexus-Pack/projetos/BlazorTodos/BlazorTodos/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/lukas/OneDrive/Área de Trabalho/Nexus/Nexus-Pack/projetos/BlazorTodos/BlazorTodos/Components/Card.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-44vcmh0qao
 
 [C:/Users/lukas/OneDrive/Área de Trabalho/Nexus/Nexus-Pack/projetos/BlazorTodos/BlazorTodos/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==

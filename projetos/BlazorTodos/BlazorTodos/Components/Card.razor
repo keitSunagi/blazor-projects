@@ -1,0 +1,76 @@
+﻿@using BlazorTodos.Models
+@using BlazorTodos.Components.Modals
+@rendermode InteractiveServer
+@inject ITodoService TodoService
+@inject NavigationManager navigation
+@inject IDialogService DialoService
+
+<div class="card">
+    <div class="card-text">
+        @if (ThisTodo.IsDone)
+        {
+            <MudChip T="string" Color="Color.Success">Concluída</MudChip>
+        }
+        else
+        {
+            <MudChip T="string" Color="Color.Warning">Pendente</MudChip>
+        }
+        <MudText Typo="@Typo.h5">@ThisTodo.Title</MudText>
+        <span class="card-created-date">Criada em @ThisTodo.CreationDate.ToString("dd/MM/yyyy")</span>
+        <br />
+        @if (ThisTodo.EndLine != DateTime.Today.ToUniversalTime())
+        {
+            <span class="date">Deadline: @ThisTodo.EndLine.ToString("dd/MM/yyyy")</span>
+        }
+        <p>@ThisTodo.Description</p>
+    </div>
+    <div class="card-stats card3">
+        <div class="stat">
+            <MudIconButton Icon="@Icons.Material.Filled.Check" Color="@Color.Inherit" />
+        </div>
+        <div class="stat border">
+            <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="@Color.Inherit" OnClick="OpenEditModal" />
+        </div>
+        <div class="stat">
+            <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="@Color.Inherit" OnClick="OnButtonClickedAsync" />
+        </div>
+    </div>
+</div>
+<MudMessageBox @ref="_DeletionBox" Title="Deletar Tarefa?" CancelText="Cancelar">
+    <MessageContent>
+        A alteração não pode ser desfeita..
+    </MessageContent>
+    <YesButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" StartIcon="@Icons.Material.Filled.DeleteForever">Apagar</MudButton>
+    </YesButton>
+</MudMessageBox>
+
+@code {
+    [Parameter]
+    public Todo ThisTodo { get; set; } = new Todo();
+    [Parameter]
+    public EventCallback OnTodoDeleted { get; set; } //Eventcallback para notificar a tela principal que foi deletada
+    private bool _DeletionAlert;
+    private MudMessageBox _DeletionBox;
+
+    private async Task OnButtonClickedAsync()
+    {
+        bool? result = await _DeletionBox.ShowAsync();
+        if (result == true)
+        {
+            TodoService.RemoveObject(ThisTodo.Id);
+            navigation.Refresh();
+            await OnTodoDeleted.InvokeAsync();
+
+        }
+    }
+    public async Task OpenEditModal()
+    {
+        var parameter = new DialogParameters
+        {
+            {"TodoToEdit" , ThisTodo }
+        };
+        var modal = await DialoService.ShowAsync<EditTodoModal>("Editar Tarefa", parameter);
+    }
+
+}

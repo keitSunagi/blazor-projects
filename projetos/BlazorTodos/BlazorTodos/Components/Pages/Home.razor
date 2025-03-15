@@ -32,14 +32,15 @@
 else
 {
         <MudGrid>
+        
             @if (Todos != null)
             {
                     @foreach (var t in Todos)
                     {
 
-                        <MudItem xs="4" sm="4" Style=" overflow-y: auto;">
-                            <CardComponent ThisTodo="t" OnTodoDeleted="LoadData" />
-                        </MudItem>
+                        
+                            <Card ThisTodo="t" OnTodoDeleted="LoadData" />
+                       
                     }
 
             }
