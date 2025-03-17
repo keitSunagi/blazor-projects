@@ -10,10 +10,13 @@ namespace BlazorTodos.Data
             
         }
         public DbSet<Todo> Todos { get; set; }
+        public DbSet<AuditItem> AuditionTodos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Todo>().HasKey(p => p.Id);
+            modelBuilder.Entity<AuditItem>().HasKey(p => p.AuditionId);
+            
 
         }
     }

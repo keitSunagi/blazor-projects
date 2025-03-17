@@ -58,7 +58,7 @@
         bool? result = await _DeletionBox.ShowAsync();
         if (result == true)
         {
-            TodoService.RemoveObject(ThisTodo.Id);
+            TodoService.RemoveObject(ThisTodo);
             navigation.Refresh();
             await OnTodoDeleted.InvokeAsync();
 

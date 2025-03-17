@@ -16,6 +16,8 @@ namespace BlazorTodos.Data
         {
             if(todo != null)
             {
+                todo.Id = Guid.NewGuid().ToString();
+                todo.Status = "v";
                 try
                 {
                     _context.Todos.Add(todo);
@@ -65,13 +67,26 @@ namespace BlazorTodos.Data
             throw new NotImplementedException();
         }
 
-        public void RemoveObject(string id)
+        public void RemoveObject(Todo thisTodo)
         {
-            if(id != null)
+            if(thisTodo != null)
             {
                 try
                 {
-                    _context.Todos.Where(p => p.Id == id).ExecuteDeleteAsync();
+                    //Update na tabela que muda o status da tarefa para d de deletado
+                    _context.Todos.Where(p => p.Id == thisTodo.Id)
+                        .ExecuteUpdateAsync(change => change
+                        .SetProperty(e => e.Status, "d"));
+
+
+                    //adiciona uma audição de deleção para marcar quando foi deletado e o que foi deletado.
+                    AuditItem auditionItem = new AuditItem();
+                    auditionItem.DeletionDate = DateTime.Today.ToUniversalTime();
+                    auditionItem.AuditionId = Guid.NewGuid().ToString();
+                    auditionItem.TodoItem = thisTodo;
+                    //Adiciona na tabela assincronamente
+                    _context.AuditionTodos.AddAsync(auditionItem);
+
                     _context.SaveChangesAsync();
                 }
                 catch (Exception)

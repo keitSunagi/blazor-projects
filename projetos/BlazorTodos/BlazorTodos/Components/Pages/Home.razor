@@ -31,23 +31,22 @@
 }
 else
 {
-        <MudGrid>
-        
-            @if (Todos != null)
-            {
-                    @foreach (var t in Todos)
-                    {
+    <MudGrid>
 
-                        
-                            <Card ThisTodo="t" OnTodoDeleted="LoadData" />
-                       
-                    }
-
-            }
-            else
+        @if (Todos != null)
+        {
+            @foreach (var t in Todos)
             {
-                _error = true;
+                if(t.Status == "v")
+                {
+                    <Card ThisTodo="t" OnTodoDeleted="LoadData" />
+                }  
             }
+        }
+        else
+        {
+            _error = true;
+        }
         </MudGrid>
 }
 
@@ -81,7 +80,7 @@ else
 
     async Task OpenNewTodo()
     {
-       var modal = await DialoService.ShowAsync<CreateNewTask>("Nova Tarefa"); 
+       var modal = await DialoService.ShowAsync<NewTodo>("Nova Tarefa"); 
     }
 
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\BlazorTodos.csproj": {}
+    "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\BlazorTodos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\BlazorTodos.csproj": {
+    "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\BlazorTodos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\BlazorTodos.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\BlazorTodos.csproj",
         "projectName": "BlazorTodos",
-        "projectPath": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\BlazorTodos.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\Nexus\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\",
+        "projectPath": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\BlazorTodos.csproj",
+        "packagesPath": "C:\\Users\\lucas.lopes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlazorTodos\\BlazorTodos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas.lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

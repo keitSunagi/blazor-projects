@@ -22,6 +22,24 @@ namespace BlazorTodos.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("BlazorTodos.Models.AuditItem", b =>
+                {
+                    b.Property<string>("AuditionId")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("DeletionDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("TodoItemId")
+                        .HasColumnType("text");
+
+                    b.HasKey("AuditionId");
+
+                    b.HasIndex("TodoItemId");
+
+                    b.ToTable("AuditionTodos");
+                });
+
             modelBuilder.Entity("BlazorTodos.Models.Todo", b =>
                 {
                     b.Property<string>("Id")
@@ -41,6 +59,10 @@ namespace BlazorTodos.Migrations
                     b.Property<bool>("IsDone")
                         .HasColumnType("boolean");
 
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -49,6 +71,15 @@ namespace BlazorTodos.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Todos");
+                });
+
+            modelBuilder.Entity("BlazorTodos.Models.AuditItem", b =>
+                {
+                    b.HasOne("BlazorTodos.Models.Todo", "TodoItem")
+                        .WithMany()
+                        .HasForeignKey("TodoItemId");
+
+                    b.Navigation("TodoItem");
                 });
 #pragma warning restore 612, 618
         }

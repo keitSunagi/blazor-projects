@@ -4,18 +4,37 @@
 @inject NavigationManager navMan
 
 <MudDialog Style="width: 800px; height: 800px;">
-    <EditForm Model="@newTodo" OnValidSubmit="AddTodo" FormName="NewTodo">
-        <DataAnnotationsValidator />
-        <ValidationSummary />
-        <div>
-            <InputText @bind-Value="@newTodo.Title" />
-        </div>
-        <div>
-
-        </div>
-        <MudButton Color="Color.Success" ButtonType="ButtonType.Submit" StartIcon="@Icons.Material.Filled.Send">Enviar</MudButton>
-    </EditForm>
-
+    <DialogContent>
+        <EditForm Model="@newTodo" OnValidSubmit="AddTodo" FormName="NewTodo">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div>
+                <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">Título</div>
+                    </div>
+                    <InputText @bind-Value="@newTodo.Title" class="form-control" />
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="height: 200px;">Descrição</span>
+                    </div>
+                    <InputTextArea @bind-Value="@newTodo.Description" class="border-1 rounded-end" style="width: 80%; height: 200px;" />
+                </div>
+                <MudCheckBox T="bool" @bind-Value="isDone">Tarefa Concluída</MudCheckBox>
+                <MudCheckBox T="bool" @bind-Value="_HasEndline">Tarefa possui data limite.</MudCheckBox>
+                @if (_HasEndline)
+                {
+                    <MudDatePicker Label="Deadline" @bind-Date="_date" AnchorOrigin="Origin.TopCenter" TransformOrigin="Origin.TopCenter" Editable="true" />
+                }
+                <div></div>
+            </div>
+            <MudButton Color="Color.Success" ButtonType="ButtonType.Submit" StartIcon="@Icons.Material.Filled.Send">Enviar</MudButton>
+        </EditForm>
+    </DialogContent>
+    <DialogActions>
+            <MudButton Color="Color.Error" OnClick="Cancel">Cancelar</MudButton>
+    </DialogActions>
 </MudDialog>
 
 @code {
@@ -24,7 +43,6 @@
 
     private bool _HasEndline;
     private bool isDone = false;
-    Guid guid;
     private Todo newTodo = new Todo();
     private DateTime? _date = DateTime.Today;
 
@@ -38,8 +56,7 @@
 
     private void AddTodo()
     {
-        guid = Guid.NewGuid();
-        newTodo.Id = guid.ToString();
+
         if (_HasEndline)
         {
             newTodo.EndLine = (DateTime)_date.Value.ToUniversalTime();
@@ -49,7 +66,6 @@
         {
             newTodo.EndLine = DateTime.Today.ToUniversalTime();
         }
-
         newTodo.CreationDate = DateTime.UtcNow;
         try
         {
@@ -59,7 +75,7 @@
         }
         catch (Exception ex)
         {
-            _errorMessage = ex.InnerException.Message;
+            _errorMessage = "[Ocorreu um erro e essa tela será fechada]" + ex.InnerException.Message;
             Cancel();
         }
 

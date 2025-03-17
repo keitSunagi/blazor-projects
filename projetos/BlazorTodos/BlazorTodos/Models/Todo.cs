@@ -15,6 +15,9 @@ namespace BlazorTodos.Models
         public DateTime CreationDate { get; set; }
         public DateTime EndLine { get; set; }
 
+        //D - Deletado, V - Valido
+        public string Status { get; set; }
+
         public Todo()
         {
             

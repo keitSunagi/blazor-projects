@@ -9,7 +9,7 @@ namespace BlazorTodos.Data
         Task<IEnumerable<Todo>> GetTodoByTitle(string title);
         Task<IEnumerable<Todo>> GetTodoByDateRange(DateTime initialDate, DateTime finalDate);
         void AddNewObject(Todo todo);
-        void RemoveObject(string title);
+        void RemoveObject(Todo title);
         void RemoveAllObjects();
     }
 }
