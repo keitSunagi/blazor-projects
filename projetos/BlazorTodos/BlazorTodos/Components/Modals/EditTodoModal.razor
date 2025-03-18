@@ -5,14 +5,34 @@
 
 <MudDialogProvider />
 
-<MudDialog>
+<MudDialog Style="width: 800px; height: 800px;">
     <DialogContent>
-        <div id="editor-todo">
-            <p style="color: white">Teste de Parametrização</p>
-        </div>
-        <div id="editor-todo-actions">
-            <p style="color: white">Aqui vai ficar os botões</p>
-        </div>
+        
+            <EditForm Model="@TodoToEdit" OnValidSubmit="UpdateTodo" FormName="EditTodo">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+                <div>
+                    <div class="input-group mb-2 mr-sm-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">Título</div>
+                        </div>
+                        <InputText @bind-Value="@TodoToEdit.Title" class="form-control" />
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" style="height: 200px;">Descrição</span>
+                        </div>
+                        <InputTextArea @bind-Value="@TodoToEdit.Description" class="border-1 rounded-end" style="width: 80%; height: 200px;" />
+                    </div>
+                    <MudCheckBox T="bool" @bind-Value="isDone">Tarefa Concluída</MudCheckBox>
+                    @if (_HasEndline)
+                    {
+                        <MudDatePicker Label="Deadline" @bind-Date="dateLimit" AnchorOrigin="Origin.TopCenter" TransformOrigin="Origin.TopCenter" Editable="true" />
+                    }
+
+                </div>
+                <MudButton Color="Color.Success" ButtonType="ButtonType.Submit" StartIcon="@Icons.Material.Filled.Send">Atualizar</MudButton>
+            </EditForm>
     </DialogContent>
     <DialogActions>
         <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="Close">Cancelar</MudButton>
@@ -27,11 +47,35 @@
     [CascadingParameter]
     public IMudDialogInstance MudDialog { get; set; }
 
+    private bool isDone, _HasEndline;
+    private DateTime? dateLimit;
+
     public void Close()
     {
         //MudDialog.Close(DialogResult.Cancel());
         MudDialog.CancelAll();
         navManager.NavigateTo("/");
+    }
+    public async Task UpdateTodo()
+    {
+        try
+        {
+            TodoToEdit.IsDone = isDone;
+            await TodoService.UpdateTodo(TodoToEdit);
+        }
+        catch(Exception ex)
+        {
+
+        }
+        finally
+        {
+            Close();
+        }
+    }
+
+    protected async override Task OnInitializedAsync()
+    {
+        
     }
 
 }

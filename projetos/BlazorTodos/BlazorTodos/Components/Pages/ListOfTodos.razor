@@ -11,7 +11,16 @@
             <MudTh>Deadline</MudTh>
         </HeaderContent>
         <RowTemplate>
-            <MudTd DataLabel="Titulo">@context.Title</MudTd>
+            <MudTd DataLabel="Titulo">
+                @if(@context.Status == "d")
+                {
+                    <MudText Color="Color.Error">@context.Title [DELETADO]</MudText>
+                }
+                else
+                {
+                    @context.Title
+                }
+            </MudTd>
             <MudTd DataLabel="Desc">@context.Description</MudTd>
             <MudTd DataLabel="Data">@context.CreationDate</MudTd>
             @if(context.EndLine != DateTime.Today.ToUniversalTime())

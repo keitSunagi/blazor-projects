@@ -67,27 +67,31 @@ namespace BlazorTodos.Data
             throw new NotImplementedException();
         }
 
+        public async Task UpdateTodo(Todo todo)
+        {
+            try
+            {
+                await _context.Todos.Where(p => p.Id == todo.Id)
+                    .ExecuteDeleteAsync();
+                await _context.Todos.AddAsync(todo);
+
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
         public void RemoveObject(Todo thisTodo)
         {
             if(thisTodo != null)
             {
                 try
                 {
-                    //Update na tabela que muda o status da tarefa para d de deletado
                     _context.Todos.Where(p => p.Id == thisTodo.Id)
-                        .ExecuteUpdateAsync(change => change
-                        .SetProperty(e => e.Status, "d"));
-
-
-                    //adiciona uma audição de deleção para marcar quando foi deletado e o que foi deletado.
-                    AuditItem auditionItem = new AuditItem();
-                    auditionItem.DeletionDate = DateTime.Today.ToUniversalTime();
-                    auditionItem.AuditionId = Guid.NewGuid().ToString();
-                    auditionItem.TodoItem = thisTodo;
-                    //Adiciona na tabela assincronamente
-                    _context.AuditionTodos.AddAsync(auditionItem);
-
-                    _context.SaveChangesAsync();
+                        .ExecuteDeleteAsync();
+                    _context.SaveChanges();
                 }
                 catch (Exception)
                 {
