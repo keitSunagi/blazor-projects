@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "TGl0knSvY+M94lGX8fTK/LjMkfD3tgf5kyX28HPOyC0=",
+  "Source": "BlzAPIGameStore.Backend",
+  "BasePath": "_content/BlzAPIGameStore.Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

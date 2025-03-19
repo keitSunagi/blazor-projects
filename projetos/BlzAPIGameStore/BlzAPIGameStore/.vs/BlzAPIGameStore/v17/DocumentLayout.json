@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\models\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\models\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BlzAPIGameStore\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BlzAPIGameStore\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:11:08.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BlzAPIGameStore\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BlzAPIGameStore\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:10:59.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "BlzAPIGameStore\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\Customer.cs",
+              "RelativeToolTip": "BlzAPIGameStore\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:00:06.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BlzAPIGameStore\\Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "BlzAPIGameStore\\Data\\AplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:56:20.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\appsettings.json",
+              "RelativeDocumentMoniker": "BlzAPIGameStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\appsettings.json",
+              "RelativeToolTip": "BlzAPIGameStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-19T15:55:17.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "BlzAPIGameStore\\Models\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\Enums\\UserRole.cs",
+              "RelativeToolTip": "BlzAPIGameStore\\Models\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:50:58.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BlzAPIGameStore\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\User.cs",
+              "RelativeToolTip": "BlzAPIGameStore\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:50:43.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
