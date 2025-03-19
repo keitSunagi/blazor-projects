@@ -12,6 +12,7 @@ namespace BlzAPIGameStore.Backend.Models
         [Required]
         public string PasswordHash { get; set; } = string.Empty;
         public UserRole Role { get; set; }
+        public Customer CustomerProfile { get; set; }
 
     }
 }

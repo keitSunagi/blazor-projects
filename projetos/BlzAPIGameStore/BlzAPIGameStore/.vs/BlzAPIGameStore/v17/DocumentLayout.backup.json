@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\models\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\models\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\models\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.backend.csproj|solutionrelative:blzapigamestore\\models\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "BlzAPIGameStore\\Models\\Customer.cs",
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Data\\AplicationDbContext.cs",
               "RelativeDocumentMoniker": "BlzAPIGameStore\\Data\\AplicationDbContext.cs",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\appsettings.json",
               "RelativeDocumentMoniker": "BlzAPIGameStore\\appsettings.json",
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\Enums\\UserRole.cs",
               "RelativeDocumentMoniker": "BlzAPIGameStore\\Models\\Enums\\UserRole.cs",
@@ -120,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Models\\User.cs",
               "RelativeDocumentMoniker": "BlzAPIGameStore\\Models\\User.cs",

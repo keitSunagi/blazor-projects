@@ -19,6 +19,8 @@ namespace BlzAPIGameStore.Backend.Data
         {
             modelBuilder.Entity<User>().HasKey(p => p.Id);
             modelBuilder.Entity<Customer>().HasKey(p => p.Id);
+
+           
             
         }
     }
