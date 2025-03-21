@@ -1,5 +1,6 @@
 ﻿using APICoreHTTP.Data.Services;
 using APICoreHTTP.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 namespace APICoreHTTP.Controllers
 {
@@ -28,16 +29,45 @@ namespace APICoreHTTP.Controllers
             }
         }
         [HttpGet("getbyname/{name}")]
-        public Music GetByName(string name)
+        public IEnumerable<Music> GetByName(string name)
+        {
+            if (!string.IsNullOrWhiteSpace(name))
+            {
+                try
+                {
+                    return _musicService.GetMusicByName(name);
+                }
+                catch (Exception ex)
+                {
+                    throw;
+                }
+            }
+            else return null;
+            
+        }
+        [HttpDelete("deleteMusic/{name}")]
+        public async Task<ActionResult> DeleteMusic(string name)
         {
             try
             {
-                return _musicService.GetMusicByName(name);
+                if (string.IsNullOrEmpty(name)) return BadRequest("Nome não é válido");
+                var music = _musicService.GetMusicByName(name);
+                if (music is null) return NotFound("Música não encontrada");
+                else
+                {
+                    await _musicService.RemoveMusic(music.First());
+                    return NoContent();
+                }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                return StatusCode(500, $"Erro interno: " + ex.Message);
             }
+           
+
+
+
+
         }
     }
 }

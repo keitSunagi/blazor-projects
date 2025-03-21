@@ -1,4 +1,7 @@
 ﻿using APICoreHTTP.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Data.Common;
 
 namespace APICoreHTTP.Data.Services
@@ -12,11 +15,20 @@ namespace APICoreHTTP.Data.Services
             _context = context;
         }
 
-        public Task AddMusic(Music music)
+        //Adiciona uma nova música.
+        public async Task AddMusic(Music music)
         {
-            throw new NotImplementedException();
+            try
+            {
+                await _context.Musics.AddAsync(music);
+                await _context.SaveChangesAsync();
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("[MusicService - AddMusic] Erro ao adicionar música : " + ex.Message);
+            }
         }
-
+        //Recupera todas as musicas.
         public IEnumerable<Music> GetAllMusics()
         {
             try
@@ -29,27 +41,44 @@ namespace APICoreHTTP.Data.Services
                 throw;
             }
         }
-
+        //Buscar por artista
         public IEnumerable<Music> GetAllMusicsByArtist(string artist)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Music GetMusicByName(string name)
         {
             try
             {
-                return _context.Musics.Where(p => p.Name == name).First();
+                return _context.Musics.Where(p => p.Artist == artist).ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("[MusicService - GetAllMusicsByArtist] : Erro interno : " + ex.Message);
+            }
+        }
+        //Buscar por nome - Pode termais de uma música com mesmo nome
+        public IEnumerable<Music> GetMusicByName(string name)
+        {
+            try
+            {
+                return _context.Musics.Where(p => p.Name == name).ToList();
             }
             catch (Exception ex)
             {
                 throw new Exception("[MusicService - GetMusicByName] Erro ao executar o processo \\" + ex.Message);
             }
         }
-
-        public Task RemoveMusic(Music music)
+        //Remover Música
+        public async Task RemoveMusic(Music music)
         {
-            throw new NotImplementedException();
+            try
+            {
+               await _context.Musics.Where(p => p.Id == music.Id)
+                    .ExecuteDeleteAsync();
+               await _context.SaveChangesAsync();
+                
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }

@@ -64,20 +64,51 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Music"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Music"
+                  }
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Music"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Music"
+                  }
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Music"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Music"
+                  }
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/Music/deleteMusic/{name}": {
+      "delete": {
+        "tags": [
+          "Music"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }

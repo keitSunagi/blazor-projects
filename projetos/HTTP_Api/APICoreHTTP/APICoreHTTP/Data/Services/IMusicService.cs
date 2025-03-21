@@ -1,5 +1,6 @@
 ﻿
 using APICoreHTTP.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace APICoreHTTP.Data.Services
 {
@@ -7,7 +8,7 @@ namespace APICoreHTTP.Data.Services
     {
         public IEnumerable<Music> GetAllMusics();
         public IEnumerable<Music> GetAllMusicsByArtist(string artist);
-        public Music GetMusicByName(string name);
+        public IEnumerable<Music> GetMusicByName(string name);
         public Task AddMusic(Music music);
         public Task RemoveMusic(Music music);
 

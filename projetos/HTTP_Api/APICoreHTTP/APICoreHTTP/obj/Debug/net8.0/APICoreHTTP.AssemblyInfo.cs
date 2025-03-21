@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APICoreHTTP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a7637af1dae2116969cf4b4fbb63a8d6b5ed804")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76515e6f26dee299647e55abb21aa770809b7262")]
 [assembly: System.Reflection.AssemblyProductAttribute("APICoreHTTP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APICoreHTTP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
