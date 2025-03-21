@@ -1,4 +1,5 @@
-﻿using APICoreHTTP.Models;
+﻿using APICoreHTTP.Exceptions;
+using APICoreHTTP.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -50,7 +51,7 @@ namespace APICoreHTTP.Data.Services
             }
             catch (Exception ex)
             {
-                throw new Exception("[MusicService - GetAllMusicsByArtist] : Erro interno : " + ex.Message);
+                throw new OtherExceptions(" ERRO |MusicService.GetAllMusicsByArtist| " + ex.Message, ex.InnerException.Message);
             }
         }
         //Buscar por nome - Pode termais de uma música com mesmo nome
@@ -58,11 +59,16 @@ namespace APICoreHTTP.Data.Services
         {
             try
             {
-                return _context.Musics.Where(p => p.Name == name).ToList();
+                var musics = _context.Musics.Where(p => p.Name == name).ToList();
+                if (musics == null)
+                {
+                    throw new MusicNotFoundException(name);
+                }
+                else return musics;
             }
             catch (Exception ex)
             {
-                throw new Exception("[MusicService - GetMusicByName] Erro ao executar o processo \\" + ex.Message);
+                throw new OtherExceptions(" ERRO |MusicService.GetMusicByName| " + ex.Message, ex.InnerException.Message);
             }
         }
         //Remover Música
