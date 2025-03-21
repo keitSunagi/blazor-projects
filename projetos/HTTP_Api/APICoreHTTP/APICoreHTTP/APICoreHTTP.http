@@ -12,3 +12,8 @@ GET {{APICoreHTTP_HostAddress}}/music
 GET {{APICoreHTTP_HostAddress}}/music
 
 ###
+
+@name=string
+GET {{APICoreHTTP_HostAddress}}/music/getbyname/{{name}}
+
+###

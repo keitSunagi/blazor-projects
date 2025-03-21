@@ -1,4 +1,5 @@
 ﻿using APICoreHTTP.Models;
+using System.Data.Common;
 
 namespace APICoreHTTP.Data.Services
 {
@@ -36,7 +37,14 @@ namespace APICoreHTTP.Data.Services
 
         public Music GetMusicByName(string name)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _context.Musics.Where(p => p.Name == name).First();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("[MusicService - GetMusicByName] Erro ao executar o processo \\" + ex.Message);
+            }
         }
 
         public Task RemoveMusic(Music music)

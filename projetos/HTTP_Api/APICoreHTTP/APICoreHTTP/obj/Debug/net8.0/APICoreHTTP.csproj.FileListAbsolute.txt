@@ -136,3 +136,4 @@ C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\projetos\HTTP_Api\APICoreHTTP\APICoreH
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\projetos\HTTP_Api\APICoreHTTP\APICoreHTTP\obj\Debug\net8.0\APICoreHTTP.pdb
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\projetos\HTTP_Api\APICoreHTTP\APICoreHTTP\obj\Debug\net8.0\APICoreHTTP.genruntimeconfig.cache
 C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\projetos\HTTP_Api\APICoreHTTP\APICoreHTTP\obj\Debug\net8.0\ref\APICoreHTTP.dll
+C:\Users\lucas.lopes\Desktop\n\Nexus-Pack\projetos\HTTP_Api\APICoreHTTP\APICoreHTTP\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

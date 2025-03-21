@@ -20,16 +20,22 @@
     ]
   },
   {
-    "ContainingType": "APICoreHTTP.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "APICoreHTTP.Controllers.MusicController",
+    "Method": "GetByName",
+    "RelativePath": "Music/getbyname/{name}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[APICoreHTTP.WeatherForecast, APICoreHTTP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "APICoreHTTP.Models.Music",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -37,7 +43,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]
