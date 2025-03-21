@@ -1,0 +1,14 @@
+@APICoreHTTP_HostAddress = https://localhost:7069
+
+GET {{APICoreHTTP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{APICoreHTTP_HostAddress}}/music
+
+###
+
+GET {{APICoreHTTP_HostAddress}}/music
+
+###

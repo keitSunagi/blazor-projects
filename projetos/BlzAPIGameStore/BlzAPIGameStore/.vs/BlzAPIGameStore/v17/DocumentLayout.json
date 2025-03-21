@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA492248-30D0-4018-B2BF-04940A13CD9D}|BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore.frontend\\blzapigamestore.frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA492248-30D0-4018-B2BF-04940A13CD9D}|BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend.csproj|solutionrelative:blzapigamestore.frontend\\blzapigamestore.frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA492248-30D0-4018-B2BF-04940A13CD9D}|BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore.frontend\\blzapigamestore.frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA492248-30D0-4018-B2BF-04940A13CD9D}|BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend.csproj|solutionrelative:blzapigamestore.frontend\\blzapigamestore.frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.Backend.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\blzapigamestore\\blzapigamestore\\blzapigamestore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78ADBD94-0AC9-46A3-A64E-6C03E72939D3}|BlzAPIGameStore\\BlzAPIGameStore.Backend.csproj|solutionrelative:blzapigamestore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\Program.cs",
+              "RelativeDocumentMoniker": "BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\Program.cs",
+              "RelativeToolTip": "BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:34:45.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\Components\\Pages\\Home.razor*",
+              "RelativeToolTip": "BlzAPIGameStore.Frontend\\BlzAPIGameStore.Frontend\\Components\\Pages\\Home.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T12:33:28.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\BlzAPIGameStore\\BlzAPIGameStore\\BlzAPIGameStore\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BlzAPIGameStore\\Controllers\\UserController.cs",

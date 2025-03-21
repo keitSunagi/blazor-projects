@@ -11,6 +11,7 @@ public class Program
         // Add services to the container.
         builder.Services.AddRazorComponents()
             .AddInteractiveWebAssemblyComponents();
+        builder.Services.AddOutputCache();
 
         var app = builder.Build();
 
@@ -30,6 +31,7 @@ public class Program
 
         app.UseStaticFiles();
         app.UseAntiforgery();
+        app.UseOutputCache();
 
         app.MapRazorComponents<App>()
             .AddInteractiveWebAssemblyRenderMode()

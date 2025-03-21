@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lKD1GSUBFH5suaa9CD4dJysDjawiDAB0aX7k31aP7SA=",
+  "Source": "APICoreHTTP",
+  "BasePath": "_content/APICoreHTTP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

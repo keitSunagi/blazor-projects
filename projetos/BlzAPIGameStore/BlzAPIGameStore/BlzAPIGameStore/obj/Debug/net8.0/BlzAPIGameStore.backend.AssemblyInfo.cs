@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlzAPIGameStore.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b53a4cdc96ae94cd3c661de410b88fd7442fdb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c37af0d82dcce50bbbbe126af40cee2a8f1c97b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlzAPIGameStore.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlzAPIGameStore.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
