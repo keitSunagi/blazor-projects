@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{8A4E0824-F873-474E-AC0E-7268AFB42B76}|APICoreHTTP\\APICoreHTTP.csproj|solutionrelative:apicorehttp\\controllers\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8A4E0824-F873-474E-AC0E-7268AFB42B76}|APICoreHTTP\\APICoreHTTP.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\http_api\\apicorehttp\\apicorehttp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4E0824-F873-474E-AC0E-7268AFB42B76}|APICoreHTTP\\APICoreHTTP.csproj|solutionrelative:apicorehttp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4E0824-F873-474E-AC0E-7268AFB42B76}|APICoreHTTP\\APICoreHTTP.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\http_api\\apicorehttp\\apicorehttp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A4E0824-F873-474E-AC0E-7268AFB42B76}|APICoreHTTP\\APICoreHTTP.csproj|solutionrelative:apicorehttp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A4E0824-F873-474E-AC0E-7268AFB42B76}|APICoreHTTP\\APICoreHTTP.csproj|c:\\users\\lucas.lopes\\desktop\\n\\nexus-pack\\projetos\\http_api\\apicorehttp\\apicorehttp\\data\\services\\musicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A4E0824-F873-474E-AC0E-7268AFB42B76}|APICoreHTTP\\APICoreHTTP.csproj|solutionrelative:apicorehttp\\data\\services\\musicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\HTTP_Api\\APICoreHTTP\\APICoreHTTP\\Program.cs",
+              "RelativeDocumentMoniker": "APICoreHTTP\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\HTTP_Api\\APICoreHTTP\\APICoreHTTP\\Program.cs",
+              "RelativeToolTip": "APICoreHTTP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:34:43.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\HTTP_Api\\APICoreHTTP\\APICoreHTTP\\appsettings.json",
+              "RelativeDocumentMoniker": "APICoreHTTP\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\HTTP_Api\\APICoreHTTP\\APICoreHTTP\\appsettings.json",
+              "RelativeToolTip": "APICoreHTTP\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T12:34:01.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Music.cs",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\HTTP_Api\\APICoreHTTP\\APICoreHTTP\\Models\\Music.cs",
               "RelativeDocumentMoniker": "APICoreHTTP\\Models\\Music.cs",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "APICoreHTTP\\Models\\Music.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T11:22:53.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T11:22:53.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IMusicService.cs",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\HTTP_Api\\APICoreHTTP\\APICoreHTTP\\Data\\Services\\IMusicService.cs",
               "RelativeDocumentMoniker": "APICoreHTTP\\Data\\Services\\IMusicService.cs",
@@ -51,12 +84,11 @@
               "RelativeToolTip": "APICoreHTTP\\Data\\Services\\IMusicService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T18:55:41.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T18:55:41.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MusicService.cs",
               "DocumentMoniker": "C:\\Users\\lucas.lopes\\Desktop\\n\\Nexus-Pack\\projetos\\HTTP_Api\\APICoreHTTP\\APICoreHTTP\\Data\\Services\\MusicService.cs",
               "RelativeDocumentMoniker": "APICoreHTTP\\Data\\Services\\MusicService.cs",
@@ -64,8 +96,7 @@
               "RelativeToolTip": "APICoreHTTP\\Data\\Services\\MusicService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T18:04:07.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T18:04:07.089Z"
             },
             {
               "$type": "Document",
