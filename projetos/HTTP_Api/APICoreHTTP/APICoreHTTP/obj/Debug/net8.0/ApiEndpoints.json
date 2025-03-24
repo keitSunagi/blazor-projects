@@ -21,6 +21,27 @@
   },
   {
     "ContainingType": "APICoreHTTP.Controllers.MusicController",
+    "Method": "AddMusic",
+    "RelativePath": "Music/add/{music}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "music",
+        "Type": "APICoreHTTP.Models.Music",
+        "IsRequired": true
+      },
+      {
+        "Name": "music",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APICoreHTTP.Controllers.MusicController",
     "Method": "DeleteMusic",
     "RelativePath": "Music/deleteMusic/{name}",
     "HttpMethod": "DELETE",

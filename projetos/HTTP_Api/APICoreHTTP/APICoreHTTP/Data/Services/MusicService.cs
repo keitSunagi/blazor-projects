@@ -54,7 +54,7 @@ namespace APICoreHTTP.Data.Services
                 throw new OtherExceptions(" ERRO |MusicService.GetAllMusicsByArtist| " + ex.Message, ex.InnerException.Message);
             }
         }
-        //Buscar por nome - Pode termais de uma música com mesmo nome
+        //Buscar por nome - Pode ter mais de uma música com mesmo nome
         public IEnumerable<Music> GetMusicByName(string name)
         {
             try

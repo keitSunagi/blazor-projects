@@ -63,11 +63,24 @@ namespace APICoreHTTP.Controllers
             {
                 return StatusCode(500, $"Erro interno: " + ex.Message);
             }
-           
+        }
+        [HttpPut("add/{music}")]
+        public async Task<IActionResult> AddMusic(Music music)
+        {
+            try
+            {
+                var resultMusic = new Music(music.Name, music.Artist, music.UrlMusic, music.Genre);
+                if (resultMusic is null) return NotFound("Música inválida.");
+                else
+                {
+                    await _musicService.AddMusic(resultMusic);
+                    return Ok("Música adicionada com sucesso");
+                }
 
-
-
-
+            }catch(Exception ex)
+            {
+                return StatusCode(500, $"Erro interno: " + ex.Message);
+            }
         }
     }
 }

@@ -112,6 +112,47 @@
           }
         }
       }
+    },
+    "/Music/add/{music}": {
+      "put": {
+        "tags": [
+          "Music"
+        ],
+        "parameters": [
+          {
+            "name": "music",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Music"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Music"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Music"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
